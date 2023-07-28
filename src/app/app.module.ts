@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SearchComponent } from './search/search.component';
+import { FormsModule } from '@angular/forms'
 
 
 @NgModule({
@@ -13,11 +15,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
