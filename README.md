@@ -1,27 +1,16 @@
-# FoodmineCourse
+# FoodStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+A simple Food Store built in Angular and Typescript
 
-## Development server
+To deploy the app locally, follow this steps :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+clone the Github Repository
+install the npm dependencies
+run the app
 
-## Code scaffolding
+Enjoy !
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
+Disclaimer: this app has been built only with a front-side objective. 
+The app is not connected to an API and the data displayed are written in a mock file. To go further, you can create an API for the food and develop a CRUD to add/delete/update the food. 
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
