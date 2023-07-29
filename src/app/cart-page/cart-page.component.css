@@ -44,6 +44,10 @@ ul li div:not(:first-child) {
     flex-basis: 18%;
 }
 
+ul li a {
+    color: black;
+}
+
 ul li select {
     width: 3rem;
     outline: none;
@@ -52,6 +56,7 @@ ul li select {
     font-size: 1.1rem;
     font-weight: 100;
 }
+
 
 ul .remove-button {
     border-radius: 1rem;
